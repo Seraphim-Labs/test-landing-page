@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lumen — Ship Ideas Faster</title>
+  <meta name="description" content="Lumen is a simple test landing page built for a Netlify deployment demo." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo">✶ Lumen</a>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#cta" class="btn btn-sm">Get started</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="pill">New · v1.0 is live</span>
+        <h1>Ship ideas at the speed of thought.</h1>
+        <p class="lede">Lumen is the minimalist workspace for makers who'd rather build than configure. Zero setup. Zero clutter. Just momentum.</p>
+        <div class="hero-cta">
+          <a href="#cta" class="btn btn-primary">Start for free</a>
+          <a href="#features" class="btn btn-ghost">See how it works →</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="features">
+      <div class="container">
+        <h2>Built for focus.</h2>
+        <div class="grid">
+          <div class="card">
+            <div class="icon">⚡</div>
+            <h3>Instant</h3>
+            <p>Opens in under a second. Keyboard-first everywhere.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🌙</div>
+            <h3>Calm</h3>
+            <p>No notifications. No dashboards. Just the work.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🧩</div>
+            <h3>Flexible</h3>
+            <p>Docs, tasks, and notes in one unified canvas.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <h2>One price. No tiers.</h2>
+        <div class="price-card">
+          <div class="price">$9<span>/mo</span></div>
+          <ul>
+            <li>Unlimited documents</li>
+            <li>Offline-first sync</li>
+            <li>Priority support</li>
+          </ul>
+          <a href="#cta" class="btn btn-primary">Start free trial</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="cta">
+      <div class="container">
+        <h2>Ready when you are.</h2>
+        <p>Join the early access list — we'll send one email, never more.</p>
+        <form class="signup" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Thanks! ✓';">
+          <input type="email" required placeholder="you@domain.com" />
+          <button type="submit" class="btn btn-primary">Notify me</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2025 Lumen</span>
+      <span>Deployed on Netlify</span>
+    </div>
+  </footer>
+</body>
+</html>
